@@ -23,9 +23,10 @@ new class extends Component
             <div class="flex">
                 <!-- Logo -->
                 <div class="flex items-center shrink-0">
-                    <a href="{{ route('shopping-lists.index') }}" wire:navigate>
+                    <a class="flex" href="{{ route('shopping-lists.index') }}" wire:navigate>
                         <x-application-logo class="block w-auto text-gray-800 fill-current h-7 dark:text-gray-200" />
-                    </a>
+                        <span class="px-2 text-xl">Shopy</span>
+                    </a> 
                 </div>
 
                 <!-- Navigation Links -->
