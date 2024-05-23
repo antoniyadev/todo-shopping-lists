@@ -2,7 +2,7 @@
 <p>
 </p>
 
-> This is an app which creates and manages TODO shopping lists, ans these lists can be send to a friend on a certain date.
+> This app is for creating and managing TODO shopping lists and these lists can be send to a friend on a given date.
 
 ## Install
 
@@ -12,18 +12,21 @@
 
 ```
 php artisan key:generate
-php artisan serve
 php artisan migrate
 php artisan db:seed
 npm install
+```
+
+```
 npm run dev
+php artisan serve
 ```
 
 ## Author
 
 👤 **Antoniya**
 
-* Website: antoniyadev.github.io
+* Website: https://antoniyadev.github.io
 * Github: [@antoniyadev](https://github.com/antoniyadev)
 
 ## Show your support
