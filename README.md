@@ -5,21 +5,14 @@
 > This app is for creating and managing TODO shopping lists and these lists can be send to a friend on a given date.
 
 ## Install
-
-- clone repo
-- run ```composer update```
-- create .env file and config the following variables - APP_URL,  DB_DATABASE, DB_USERNAME, DB_PASSWORD
-
-```
-php artisan key:generate
-php artisan migrate
-php artisan db:seed
-npm install
-```
-
-```
-php artisan serve
-```
+- Clone this repository locally with ```git clone git@github.com:antoniyadev/todo-shopping-lists.git```
+- Copy the .env.example file to .env
+- Install the PHP dependencies with ```composer install```
+- Generate a new app key with ```php artisan key:generate```
+- Prepare the database by running ```php artisan migrate --seed```
+- Install and compile the front-end dependencies with ```npm install && npm run dev```
+- Set a valid APP_URL, DB_DATABASE, DB_USERNAME, DB_PASSWORD value in your .env file
+- Serve the website locally by running ```php artisan serve```
 
 ## Author
 
