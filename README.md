@@ -14,6 +14,9 @@
 - Set a valid APP_URL, DB_DATABASE, DB_USERNAME, DB_PASSWORD value in your .env file
 - Serve the website locally by running ```php artisan serve```
 
+## Send Lists via email
+- run ```php artisan app:send-scheduled-lists```
+
 ## Author
 
 👤 **Antoniya**
