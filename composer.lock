@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2b8b2c65e6daa365b19b6549861970cc",
+    "content-hash": "00fb15259b41d271d166d0610e4b89cd",
     "packages": [
         {
             "name": "brick/math",
@@ -5843,16 +5843,16 @@
         },
         {
             "name": "wireui/wireui",
-            "version": "v1.19.0",
+            "version": "v1.19.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wireui/wireui.git",
-                "reference": "d50d5e8d5f8d8d610701f6f638accb8d21398bbb"
+                "reference": "6995c73738b8bb811939ab5e1903cc26283083cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wireui/wireui/zipball/d50d5e8d5f8d8d610701f6f638accb8d21398bbb",
-                "reference": "d50d5e8d5f8d8d610701f6f638accb8d21398bbb",
+                "url": "https://api.github.com/repos/wireui/wireui/zipball/6995c73738b8bb811939ab5e1903cc26283083cd",
+                "reference": "6995c73738b8bb811939ab5e1903cc26283083cd",
                 "shasum": ""
             },
             "require": {
@@ -5903,15 +5903,9 @@
             ],
             "support": {
                 "issues": "https://github.com/wireui/wireui/issues",
-                "source": "https://github.com/wireui/wireui/tree/v1.19.0"
+                "source": "https://github.com/wireui/wireui/tree/v1.19.1"
             },
-            "funding": [
-                {
-                    "url": "https://github.com/PH7-Jack",
-                    "type": "github"
-                }
-            ],
-            "time": "2024-03-13T13:34:59+00:00"
+            "time": "2024-05-24T20:06:47+00:00"
         }
     ],
     "packages-dev": [

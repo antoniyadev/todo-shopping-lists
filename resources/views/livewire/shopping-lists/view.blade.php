@@ -25,8 +25,8 @@ new #[Layout('layouts.guest')] class extends Component {
         </h2>
     </div>
     @foreach ($list->items as $item) 
-    <div class="flex justify-startitems-right">
-        <x-checkbox wire:model="doneItemIds" value="{{$item->id}}" wire:change="processItem({{$item->id}})"/> {{$item->title}} - {{$item->quantity}}
-    </div>
+        <div class="flex justify-start items-right">
+            <x-checkbox label="{{$item->title}} - {{$item->quantity}}" wire:model="doneItemIds" value="{{$item->id}}" wire:change="processItem({{$item->id}})" xl/>
+        </div>
     @endforeach
 </div>

@@ -33,13 +33,6 @@ Volt::route('shopping-lists/{list}/edit', 'shopping-lists.edit')
     ->middleware('auth')
     ->name('shopping-lists.edit');
 
-// Route::get('shopping-lists/{list}', function (ShoppingList $list) {
-//     if (!$list->is_published) {
-//         abort(404);
-//     }
-//     $user = $list->user;
-//     return view('shopping-lists.view', ['list' => $list, 'user' => $user]);
-// })->name('shopping-lists.view');
 Volt::route('shopping-lists/{list}', 'shopping-lists.view')
     ->middleware('auth')
     ->name('shopping-lists.view');

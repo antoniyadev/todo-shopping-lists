@@ -29,7 +29,8 @@ class SendEmail implements ShouldQueue
     {
         $listUrl = config('app.url') . "/shopping-lists/" . $this->list->id;
 
-        $emailContent = "Hello, you received a new shopping list. View it here: {$listUrl}";
+        $emailContent = "Hello, you received a new shopping list. View it here: 
+        {$listUrl}";
 
         Mail::raw($emailContent, function ($message) {
             $message->from('test@example.com', config('app.name'))

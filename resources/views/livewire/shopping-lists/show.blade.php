@@ -47,7 +47,7 @@ new class extends Component
                 <div class="flex items-end justify-between mt-4 space-x-1">
                     <p class="text-xs">Recipient: <span class="font-semibold">{{$shoppingList->recipient}}</span></p>
                     <div>
-                        <x-button.circle icon="eye" href="{{route('shopping-lists.view', $shoppingList)}}"></x-button.circle>
+                        <x-button.circle wire:navigate icon="eye" href="{{route('shopping-lists.view', $shoppingList)}}"></x-button.circle>
                         <x-button.circle wire:click="delete('{{$shoppingList->id}}')" icon="trash"></x-button.circle>
                     </div>
                 </div>
