@@ -2,7 +2,7 @@
 <p>
 </p>
 
-> This app is for creating and managing TODO shopping lists and these lists can be send to a friend on a given date.
+> This app is for creating and managing to-do shopping lists, which can be sent to a friend on a specified date.
 
 ## Install
 - Clone this repository locally with ```git clone git@github.com:antoniyadev/todo-shopping-lists.git```
