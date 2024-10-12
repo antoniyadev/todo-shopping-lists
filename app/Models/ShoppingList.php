@@ -16,7 +16,9 @@ class ShoppingList extends Model
 
     protected $with = ['items'];
     protected $casts = [
-        'is_published' => 'boolean'
+        'is_published' => 'boolean',
+        'created_at' => 'datetime',
+        'updated_at' => 'datetime',
     ];
 
     public function user()

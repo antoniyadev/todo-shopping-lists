@@ -12,7 +12,7 @@ test('password can be updated', function () {
     $this->actingAs($user);
 
     $component = Volt::test('profile.update-password-form')
-        ->set('current_password', 'password')
+        ->set('current_password', '12345678')
         ->set('password', 'new-password')
         ->set('password_confirmation', 'new-password')
         ->call('updatePassword');
